@@ -7,7 +7,7 @@ namespace xUnit_ForSquareThings
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void Test_to_assert_caculation_correctness()
         {
             // Arange
             var rectangle = new Rectangle(5d, 7d);
@@ -18,7 +18,6 @@ namespace xUnit_ForSquareThings
             // Asert
             Assert.Equal(35, test1result);
             Assert.Equal(90, test2result);
-
         }
     }
 }
