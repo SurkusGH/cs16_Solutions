@@ -17,8 +17,8 @@ namespace xUnit_ForRoundThings
             double test2result = cylinder.GetVolumeData();
 
             // Asert
-            Assert.Equal(78.53981633974483, test1result);
-            Assert.Equal(785, test2result);
+            Assert.Equal(79, Math.Round(test1result));
+            Assert.Equal(785, Math.Round(test2result));
         }
     }
 }

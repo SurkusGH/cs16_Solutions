@@ -30,7 +30,7 @@ namespace cs16_paskaita_Solutions
         //    To calculate volume multiply the area with height.
         public void GetVolume()
         {
-            Console.WriteLine($"{Radius} * {Radius} * PI * {Height} * PI = {Math.Round(GetAreaData() * Height)}");
+            Console.WriteLine($"{Radius} * {Radius} * PI * {Height} * PI = {Math.Round(GetAreaData() * Height, 5)}");
         }
         public double GetVolumeData()
         {
