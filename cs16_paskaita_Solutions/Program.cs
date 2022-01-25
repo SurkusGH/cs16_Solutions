@@ -62,8 +62,10 @@ namespace cs16_paskaita_Solutions
             // cylinder.area= 96.76890771219959
             // cylinder.volume= 701.574580913447
             #endregion
+
             // some space for console
             Console.WriteLine();
+
             #region Assignment2 - PT1
             // The Swimming Company has asked you to write an application that calculates the volume of cuboid shaped pools.
             // 1. Write a class with the name Rectangle.The class needs two properties with name width and length both of type double.
@@ -92,13 +94,13 @@ namespace cs16_paskaita_Solutions
 
             // Rectangle rectangle = new Rectangle(5, 10);
             // System.out.println("rectangle.width= " + rectangle.getWidth());
-            // System.out.println("rectangle.length= " + rectangle.getLength());
+            // System.out.println("rectangle.length= " + rectangle.getLength()); <-- Užduoty nenurodyta
             // System.out.println("rectangle.area= " + rectangle.getArea());
             // Cuboid cuboid = new Cuboid(5, 10, 5);
             // System.out.println("cuboid.width= " + cuboid.getWidth());
-            // System.out.println("cuboid.length= " + cuboid.getLength());
+            // System.out.println("cuboid.length= " + cuboid.getLength()); <-- Užduoty nenurodyta
             // System.out.println("cuboid.area= " + cuboid.getArea());
-            // System.out.println("cuboid.height= " + cuboid.getHeight());
+            // System.out.println("cuboid.height= " + cuboid.getHeight()); <-- Užduoty nenurodyta
             // System.out.println("cuboid.volume= " + cuboid.getVolume());
 
             //→ OUTPUT

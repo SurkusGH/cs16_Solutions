@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cs16_paskaita_Solutions
 {
-    internal class Cuboid : Rectangle
+    public class Cuboid : Rectangle
     {
         //2. Write a class with the name Cuboid that extends Rectangle class. The class needs one field(instance variable) with name height of type double.
         public double Height { get; set; }
@@ -22,6 +22,10 @@ namespace cs16_paskaita_Solutions
         public void GetVolume()
         {
             Console.WriteLine($"Volume is calculated by multiplyng height({Height}) width({Width}) and lenght({Lenght}) = {GetAreaData()*Height}");
+        }
+        public double GetVolumeData()
+        {
+            return (GetAreaData() * Height);
         }
     }
 }

@@ -30,6 +30,7 @@ namespace cs16_paskaita_Solutions
         }
         public void GetArea()
         {
+            //    Write the following method:
             //    * Method named getArea without any parameters, it needs to return the calculated area (width* length)
             Console.WriteLine($"Height({Lenght}) * Width({Width}) = {Lenght*Width}");
         }
@@ -42,4 +43,4 @@ namespace cs16_paskaita_Solutions
 
 
 
-//    Write the following method:
+

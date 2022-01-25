@@ -1,0 +1,24 @@
+using cs16_paskaita_Solutions;
+using System;
+using Xunit;
+
+namespace xUnit_ForSquareThings
+{
+    public class UnitTest1
+    {
+        [Fact]
+        public void Test1()
+        {
+            // Arange
+            var rectangle = new Rectangle(5d, 7d);
+            var cuboid = new Cuboid(3d, 5d, 6d);
+            // Act
+            double test1result = rectangle.GetAreaData();
+            double test2result = cuboid.GetVolumeData();
+            // Asert
+            Assert.Equal(35, test1result);
+            Assert.Equal(90, test2result);
+
+        }
+    }
+}
